@@ -1,0 +1,18 @@
+Comandos para indiciar un repositorio en git
+
+  262  cd proyectos_git
+  263  git init
+  264  touch README.md
+  265  vir README.md
+  266  vim README.md
+  267  git status
+  268  git add README.md
+  269  git status
+  270  git commit -m"Se creo el archivo README donde esta la info del primer repositorio"
+  271  git remote add origin https://github.com/cristcraft/proyectos_git.git
+  272  git remote
+  273  git remote -v
+  274  ls
+  275  git push origin master:master
+  276  git log
+  277  history > comandos.txt
