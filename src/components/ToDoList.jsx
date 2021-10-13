@@ -11,7 +11,7 @@ function ToDoList(props){
                             return(
                             <tr key={i}>
                             <td>
-                                <input type="checkbox" className="form-check-input" />
+                                <input type="checkbox" className="form-check-input" defaultChecked={()=>{props.checkValue()}} onClick={()=>{props.check(i)}} />
                             </td>
                             <td>
                                 <h4 className="text-primary mb-0">{task.description}</h4>
